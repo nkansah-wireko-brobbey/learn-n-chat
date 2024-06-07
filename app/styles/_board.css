@@ -1,0 +1,7 @@
+.board-responsive{
+    @apply w-full sm:w-full md:w-[700px] mx-auto;
+}
+
+.tabs-active-state{
+    @apply data-[state=active]:bg-slate-500 data-[state=active]:text-white;
+}
