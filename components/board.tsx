@@ -133,7 +133,7 @@ const Board = () => {
         <TabsContent value="ask">
           <Card className="bg-slate-800 text-white border-none pb-5">
             <CardHeader>
-              <CardTitle>Let's Chat 💬</CardTitle>
+              <CardTitle>{"Let's Chat 💬"}</CardTitle>
               <CardDescription>
                 What questions are on your mind? Ask away!
               </CardDescription>
@@ -197,7 +197,7 @@ const Board = () => {
         <TabsContent value="resource">
           <Card className="bg-slate-800 text-white border-none">
             <CardHeader>
-              <CardTitle>Let's Upload your resource ⬆️</CardTitle>
+              <CardTitle>{"Let's Upload your resource ⬆️"}</CardTitle>
               <CardDescription>
                 What resources do you have to share? Upload them here!
               </CardDescription>
