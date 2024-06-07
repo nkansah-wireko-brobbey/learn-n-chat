@@ -33,10 +33,6 @@ const useUploadResource = () => {
     }
   };
 
-  useEffect(() => {
-
-  }, []);
-
   return { response, error, loading, uploadResource };
 };
 

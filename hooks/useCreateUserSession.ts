@@ -43,8 +43,6 @@ const useCreateUserSession = () => {
     }
   };
 
-  useEffect(() => {}, []);
-
   return { response, error, loading, createSession };
 };
 
