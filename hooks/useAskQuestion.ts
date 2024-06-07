@@ -10,7 +10,10 @@ const useAskQuestion = () => {
   const { userId } = userStore();
 
 
-  const uri = process.env.API_URL || "http://localhost:5000";
+  const uri =
+    process.env.API_URL ||
+    "https://learn-n-chat-backend-k7qr5mn0f-nkansah-wireko-brobbeys-projects.vercel.app" ||
+    "http://localhost:5000";
     const url = `${uri}/question`;
     
     console.log(url)

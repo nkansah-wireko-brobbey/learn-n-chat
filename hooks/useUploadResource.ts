@@ -10,7 +10,9 @@ const useUploadResource = () => {
   const { userId } = userStore();
 
 
-  const uri = process.env.API_URL || "http://localhost:5000";
+  const uri =
+    process.env.API_URL ||
+    "https://learn-n-chat-backend-k7qr5mn0f-nkansah-wireko-brobbeys-projects.vercel.app";
     const resourceApiUrl = `${uri}/resource`;
     
     console.log(resourceApiUrl)
